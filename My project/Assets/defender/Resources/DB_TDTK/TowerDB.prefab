@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: TowerDB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45ce95b4d9dbfb24db664eae2fde8626, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  towerList:
+  - {fileID: 11498728, guid: 4acf913adbb5a1840aed9f05f0db97f1, type: 3}
+  - {fileID: 11480696, guid: a1141e268f67d444db00d1256a7a21d6, type: 3}
+  - {fileID: 11455144, guid: c6683f3e2d768af4aad2fe64a8110936, type: 3}
+  - {fileID: 11464852, guid: f1e50dab1718f4f449b2631861375bf1, type: 3}
+  - {fileID: 11410868, guid: 01670c9934f0b2c489f8a88687b57da3, type: 3}
+  - {fileID: 11457424, guid: 4a87cc4345f496d49b60957590f4a179, type: 3}
+  - {fileID: 11488038, guid: 1cefe92870bc28649af4736649433946, type: 3}
+  - {fileID: 11460486, guid: 635b0bbca7ee4fa4095b69da08054c20, type: 3}
+  - {fileID: 11406226, guid: fc70772277194e945914580c02ed3a8d, type: 3}
+  - {fileID: 11457000, guid: da337e62461d6e647999d3c6cc324cdf, type: 3}
+  - {fileID: 11464890, guid: 247f78915114afb4a9d572486f885f75, type: 3}
+  - {fileID: 11478766, guid: 1fbf5eafcf5637142b578e41dbb2c1b9, type: 3}
+  - {fileID: 11477652, guid: df7c55c6099ed0c4b8b71cb95f0d9b01, type: 3}
+  - {fileID: 11462446, guid: e1e7aa20700e45e4da9a2347e367a629, type: 3}
